@@ -12,5 +12,23 @@ fun main() {
     cir.printDimensions()
 
 
+    print("Enter Square Radius: ")
+
+    val s1 = readln()
+    //println("You entered: $rad1")
+    sqa.setDimensions(s1.toDouble(), s1.toDouble())
+    sqa.printDimensions()
+
+    print("Enter Square Radius: ")
+
+    val eqt = readln()
+    //println("You entered: $rad1")
+    equ.setDimensions(eqt.toDouble())
+    equ.printDimensions()
+
+    equ.printDimensions()
+
+
+
 
 }
