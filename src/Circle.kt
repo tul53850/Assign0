@@ -5,8 +5,8 @@ class Circle(name: String) : Shape(name) {
         println(radius)
     }
 
-    fun setDimensions(rad: Double){
-        radius = rad
+    override fun setDimensions(side: Double){
+        radius = side
     }
 
     override fun getArea(): Double {

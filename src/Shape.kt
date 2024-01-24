@@ -4,5 +4,15 @@ abstract class Shape (private var name : String) : Dimensionable{
         return 0.0
     }
 
-    //open fun setDimensions() {}
+    open fun setDimensions(side: Double){
+
+    }
+
+    open fun setDimensions(len:Double, ht:Double){
+
+    }
+
+    open fun setDimensions(sideA:Double, sideB:Double, sideC:Double){
+
+    }
 }

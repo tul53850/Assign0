@@ -11,7 +11,7 @@ class Square(name: String) : Shape(name) {
         println(height)
     }
 
-    fun setDimensions(len:Double, ht:Double) {
+    override fun setDimensions(len:Double, ht:Double) {
         length = len
         height = ht
     }

@@ -9,7 +9,7 @@ class EquilateralTriangle(name: String) : Triangle(name) {
         println(s)
     }
 
-    fun setDimensions(side: Double){
+    override fun setDimensions(side: Double){
         s = side
     }
 

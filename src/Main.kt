@@ -8,7 +8,7 @@ fun main() {
 
     val rad1 = readln()
     //println("You entered: $rad1")
-    //cir.setDimensions(rad1)
+    cir.setDimensions(rad1.toDouble())
     cir.printDimensions()
 
 

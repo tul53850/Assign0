@@ -11,7 +11,7 @@ open class Triangle(name: String) : Shape(name) {
         println(c)
     }
 
-    fun setDimensions(sideA:Double, sideB:Double, sideC:Double){
+    override fun setDimensions(sideA:Double, sideB:Double, sideC:Double){
         a=sideA
         b=sideB
         c=sideC
